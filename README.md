@@ -3,7 +3,7 @@ This repository contains documentation of simulated SOC Investigations, demonstr
 
 ## Scenarios
 - [Phisihing Incident Investigation Lab]
-(Phishing_incident_investigation_lab.md)
+(phishing-incident-investigation-lab.md)
 - [Failed Login Log Analysis]
 (log-analysis-example.md)
 - [Malware Alert Simulation]
