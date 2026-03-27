@@ -34,6 +34,8 @@ ssh admin@localhost -p 2222
 ## Log Analysis
 Cowrie successfully captured and logged authentication attempts.
 
+![Honeypot Log](honey-log-test.png)
+
 Example log observations:
   - Username: admin
   - Multiple failed login attempts
