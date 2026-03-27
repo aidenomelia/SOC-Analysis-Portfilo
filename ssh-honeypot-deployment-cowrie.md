@@ -19,18 +19,18 @@ The following steps were performed to deploy the honeypot:
   - Copied and configured the default configuration file: 
 ```bash 
 cp etc/cowrie.cfg.dist etc/cowrie.cfg
-
+```
 ## Service Validtion
 The Cowrie SSH honeypot was started successfully and configured to listen on TCP port 2222.
 Verification command
 ```bash
 ss -tulnp | grep 2222
-
+```
 ## Testing & Interaction
 A local SSH connection was attempted to simulate attacker behavior:
 ```bash
 ssh admin@localhost -p 2222
-
+```
 ## Log Analysis
 Cowrie successfully captured and logged authentication attempts.
 
@@ -42,7 +42,7 @@ Example log observations:
 Logs were monitored in real time using:
 ```bash
 tail -f cowrie.log
-
+```
 ## Outcome
 The honeypot was successfully deployed and validated.
   - Service was accessible via SSH
